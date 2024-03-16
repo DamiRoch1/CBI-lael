@@ -63,7 +63,7 @@ nav {
   background-color: #34495e;
   margin-top: 60px;
   margin-left: 60px;
-  border-radius: 8px;
+  border-radius: 8px 8px 0 0;
 
 }
 .titre1{
@@ -74,4 +74,31 @@ nav {
   margin-left: 40px;
   margin-right: 40px;
 
+}
+.art2{
+  width: 45%;
+  height: 605px;
+  background-color: #34495e;
+  margin-top: -610px;
+  margin-left: 52%;
+  border-radius: 8px;
+  float: right;
+  margin-right: 60px;
+
+}
+.titre2{
+  margin-left: 40px;
+  padding-top: 10px;
+}
+.p2{
+  margin-left: 40px;
+  margin-right: 40px;
+  
+
+}
+.imgentreblock{
+  width: 48%;
+  background-color: #34495e;
+  margin-left: 60px;
+  border-radius: 0 0 8px 8px ;
 }
