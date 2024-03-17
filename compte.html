@@ -1,0 +1,113 @@
+<!--- /!\ on ne touche pas a ca /!\ -->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CBR | Login</title>
+    <link rel="stylesheet" href="compte.css" />
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <div class="logo">
+      <a href="index.html"
+        ><img
+          src="https://pbs.twimg.com/profile_images/1517209528911245315/Fjl6hr8W_400x400.jpg"
+          alt=""
+      /></a>
+    </div>
+    <nav>
+      <a href="index.html">home</a>
+      <a href="#">récent</a>
+      <a href="#">en cours</a>
+      <a href="#">non résolu</a>
+
+    </nav>
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+    <body>
+      <div class="login">
+          <div class="login__content">
+              <div class="login__img">
+                  <img src="assets/img/img-login.svg" alt="">
+              </div>
+
+              <div class="login__forms">
+                  <form action="" class="login__registre" id="login-in">
+                      <h1 class="login__title">connexion</h1>
+  
+                      <div class="login__box">
+                          <i class='bx bx-user login__icon'></i>
+                          <input type="text" placeholder="Email" class="login__input">
+                      </div>
+  
+                      <div class="login__box">
+                          <i class='bx bx-lock-alt login__icon'></i>
+                          <input type="password" placeholder="Mot de passe" class="login__input" id="inputField">
+                      </div>
+
+                      <a href="#" class="login__forgot">Mot de passe oublié ?</a>
+
+                    
+                      <button id="submitButton" class="login__button">connexion</button>
+
+                     
+                  </form>
+              </div>
+          </div>
+      </div>
+
+
+<script>
+    // Fonction de vérification du champ
+    function checkField() {
+        var fieldValue = document.getElementById("inputField").value;
+        // Vérifie si le champ n'est pas vide
+        if (fieldValue.trim() !== "") {
+            if (fieldValue.trim() === "1234") {
+                // Redirection vers une autre page si la valeur est "1234"
+                window.location.replace("https://twitch.tv/blackangel_tv_");
+            }
+            return true;
+        } else {
+            alert("Veuillez remplir le champ !");
+            return false;
+        }
+    }
+
+    // Attacher un gestionnaire d'événements au bouton de soumission
+    document.getElementById("submitButton").addEventListener("click", function() {
+        if (checkField()) {
+            // Vous pouvez ajouter d'autres actions ici si nécessaire
+        }
+    });
+
+                const signUp = document.getElementById('sign-up'),
+                signIn = document.getElementById('sign-in'),
+                loginIn = document.getElementById('login-in'),
+                loginUp = document.getElementById('login-up')
+
+
+            signUp.addEventListener('click', ()=>{
+                // Remove classes first if they exist
+                loginIn.classList.remove('block')
+                loginUp.classList.remove('none')
+
+                // Add classes
+                loginIn.classList.toggle('none')
+                loginUp.classList.toggle('block')
+            })
+
+            signIn.addEventListener('click', ()=>{
+                // Remove classes first if they exist
+                loginIn.classList.remove('none')
+                loginUp.classList.remove('block')
+
+                // Add classes
+                loginIn.classList.toggle('block')
+                loginUp.classList.toggle('none')
+            })
+        </script>
+  </body>
+</html>

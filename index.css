@@ -3,6 +3,7 @@ body{
     font-size: 12px;
     font-family: sans-serif;
     color: white;
+    text-align: justify;
 }
 nav {
     margin: 10px auto 0;
