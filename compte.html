@@ -10,20 +10,24 @@
 
   </head>
   <body>
-    <div class="logo">
-      <a href="index.html"
-        ><img
+    <div class="dropdown">
+        <button class="dropdown-button"><img class="img2"
           src="https://pbs.twimg.com/profile_images/1517209528911245315/Fjl6hr8W_400x400.jpg"
           alt=""
-      /></a>
-    </div>
-    <nav>
-      <a href="index.html">home</a>
-      <a href="#">récent</a>
-      <a href="#">en cours</a>
-      <a href="#">non résolu</a>
-
-    </nav>
+      /></button>
+        <div class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="recent.html">récent</a>
+          <a href="#">en cours</a>
+          <a href="#">non résolu</a>
+          <a href="compte.html"
+          ><img
+            class="img1"
+            src="https://cdn-icons-png.flaticon.com/128/456/456283.png"
+            alt=""
+        /></a>
+        </div>
+      </div>
     <!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
     <body>
@@ -60,15 +64,15 @@
 
 
 <script>
-    // Fonction de vérification des champs
+    
     function checkFields() {
         var fieldValue1 = document.getElementById("inputField1").value;
         var fieldValue2 = document.getElementById("inputField2").value;
         
-        // Vérifie si les champs ne sont pas vides
+        
         if (fieldValue1.trim() !== "" && fieldValue1.trim() === "1234") {
             if (fieldValue1.trim() === "1234" && fieldValue2.trim() === "5678") {
-                // Redirection vers une autre page si les valeurs sont "1234" et "5678"
+                //les valeurs sont "1234" et "5678"
                 window.location.replace("https://twitch.tv/blackangel_tv_");
                 alert("ok !");
             }
@@ -79,19 +83,13 @@
         }
     }
 
-    // Attacher un gestionnaire d'événements au bouton de soumission
+    
     document.getElementById("submitButton").addEventListener("click", function() {
         if (checkFields()) {
-            // Vous pouvez ajouter d'autres actions ici si nécessaire
+            
         }
     });
 
-    // Attacher un gestionnaire d'événements au bouton de soumission
-    document.getElementById("submitButton").addEventListener("click", function() {
-        if (checkField()) {
-            // Vous pouvez ajouter d'autres actions ici si nécessaire
-        }
-    });
 
                 const signUp = document.getElementById('sign-up'),
                 signIn = document.getElementById('sign-in'),

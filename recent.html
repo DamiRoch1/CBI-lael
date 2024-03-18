@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu Déroulant</title>
+<style>
+    /* Style de base pour le menu */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Style du bouton du menu */
+    .dropdown-button {
+        background-color: #1f2b38;
+        color: white;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Style de la liste déroulante */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    /* Style des éléments de la liste déroulante */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Style de survol pour les éléments de la liste déroulante */
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Afficher la liste déroulante lorsque survolant le bouton */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .img2{
+        width: 100px;
+      }
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+  <button class="dropdown-button"><img class="img2"
+    src="https://pbs.twimg.com/profile_images/1517209528911245315/Fjl6hr8W_400x400.jpg"
+    alt=""
+/></button>
+  <div class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="recent.html">récent</a>
+    <a href="#">en cours</a>
+    <a href="#">non résolu</a>
+    <a href="compte.html"
+    ><img
+      class="img1"
+      src="https://cdn-icons-png.flaticon.com/128/456/456283.png"
+      alt=""
+  /></a>
+  </div>
+</div>
+
+</body>
+</html>
