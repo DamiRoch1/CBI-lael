@@ -1,12 +1,12 @@
 body{
     background-color: #1f2b38;
     font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: sans-serif;
     color: white;
     text-align: justify;
 }
-    /* Style de base pour le menu */
-    .dropdown {
+     /* Style de base pour le menu */
+     .dropdown {
       position: relative;
       display: inline-block;
       
@@ -54,55 +54,3 @@ body{
   .dropdown:hover .dropdown-content {
       display: block;
   }
-.art1{
-  width: 48%;
-  height: 150px;
-  background-color: #34495e;
-  margin-top: 60px;
-  margin-left: 60px;
-  border-radius: 8px 8px 0 0;
-
-}
-.titre1{
-  margin-left: 40px;
-  padding-top: 10px;
-}
-.p1{
-  margin-left: 40px;
-  margin-right: 40px;
-
-}
-.art2{
-  width: 45%;
-  height: 605px;
-  background-color: #34495e;
-  margin-top: -610px;
-  margin-left: 52%;
-  border-radius: 8px;
-  float: right;
-  margin-right: 60px;
-
-}
-.titre2{
-  margin-left: 40px;
-  padding-top: 10px;
-}
-.p2{
-  margin-left: 40px;
-  margin-right: 40px;
-  
-
-}
-.imgentreblock{
-  width: 48%;
-  background-color: #34495e;
-  margin-left: 60px;
-  border-radius: 0 0 8px 8px ;
-}
-.img2{
-  width: 100px;
-}
-.img1{
-  width: 30px
-}
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");

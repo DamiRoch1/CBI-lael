@@ -5,30 +5,35 @@ body{
     color: white;
     text-align: justify;
 }
-    /* Style de base pour le menu */
-    .dropdown {
+     /* Style de base pour le menu */
+     .dropdown {
       position: relative;
       display: inline-block;
+      
   }
 
   /* Style du bouton du menu */
   .dropdown-button {
       background-color: #1f2b38;
-      color: white;
+      color: 34495e;
       padding: 12px;
       font-size: 16px;
       border: none;
       cursor: pointer;
+      border-radius: 8px;
+      
+      
   }
 
   /* Style de la liste déroulante */
   .dropdown-content {
       display: none;
       position: absolute;
-      background-color: #f9f9f9;
+      background-color: #34495e;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
+      border-radius: 8px;
   }
 
   /* Style des éléments de la liste déroulante */
@@ -41,7 +46,8 @@ body{
 
   /* Style de survol pour les éléments de la liste déroulante */
   .dropdown-content a:hover {
-      background-color: #f1f1f1;
+      background-color: #42505f;
+      border-radius: 8px;
   }
 
   /* Afficher la liste déroulante lorsque survolant le bouton */
@@ -296,4 +302,7 @@ img{
 }
 .img2{
   width: 100px;
+}
+.img1 {
+  width: 30px;
 }
