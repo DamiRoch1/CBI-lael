@@ -39,12 +39,12 @@
   
                       <div class="login__box">
                           <i class='bx bx-user login__icon'></i>
-                          <input type="text" placeholder="Email" class="login__input">
+                          <input type="text" placeholder="Email" class="login__input" id="inputField1">
                       </div>
   
                       <div class="login__box">
                           <i class='bx bx-lock-alt login__icon'></i>
-                          <input type="password" placeholder="Mot de passe" class="login__input" id="inputField">
+                          <input type="password" placeholder="Mot de passe" class="login__input" id="inputField2">
                       </div>
 
                       <a href="#" class="login__forgot">Mot de passe oublié ?</a>
@@ -60,21 +60,31 @@
 
 
 <script>
-    // Fonction de vérification du champ
-    function checkField() {
-        var fieldValue = document.getElementById("inputField").value;
-        // Vérifie si le champ n'est pas vide
-        if (fieldValue.trim() !== "") {
-            if (fieldValue.trim() === "1234") {
-                // Redirection vers une autre page si la valeur est "1234"
-                window.location.replace("https://twitch.tv/blackangel_tv_");
+    // Fonction de vérification des champs
+    function checkFields() {
+        var fieldValue1 = document.getElementById("inputField1").value;
+        var fieldValue2 = document.getElementById("inputField2").value;
+        
+        // Vérifie si les champs ne sont pas vides
+        if (fieldValue1.trim() !== "" && fieldValue1.trim() === "1234") {
+            if (fieldValue1.trim() === "1234" && fieldValue2.trim() === "5678") {
+                // Redirection vers une autre page si les valeurs sont "1234" et "5678"
+                window.location.replace("https://youtube.com");
+                alert("ok !");
             }
             return true;
         } else {
-            alert("Veuillez remplir le champ !");
+            alert("Veuillez remplir tous les champs !");
             return false;
         }
     }
+
+    // Attacher un gestionnaire d'événements au bouton de soumission
+    document.getElementById("submitButton").addEventListener("click", function() {
+        if (checkFields()) {
+            // Vous pouvez ajouter d'autres actions ici si nécessaire
+        }
+    });
 
     // Attacher un gestionnaire d'événements au bouton de soumission
     document.getElementById("submitButton").addEventListener("click", function() {
