@@ -5,14 +5,14 @@ body{
     color: white;
     text-align: justify;
 }
-     /* Style de base pour le menu */
+
      .dropdown {
         position: relative;
         display: inline-block;
         
     }
   
-    /* Style du bouton du menu */
+
     .dropdown-button {
         background-color: #1f2b38;
         color: 34495e;
@@ -25,7 +25,7 @@ body{
         
     }
   
-    /* Style de la liste déroulante */
+
     .dropdown-content {
         display: none;
         position: absolute;
@@ -36,7 +36,7 @@ body{
         border-radius: 8px;
     }
   
-    /* Style des éléments de la liste déroulante */
+
     .dropdown-content a {
         color: black;
         padding: 12px 16px;
@@ -44,13 +44,13 @@ body{
         display: block;
     }
   
-    /* Style de survol pour les éléments de la liste déroulante */
+
     .dropdown-content a:hover {
         background-color: #42505f;
         border-radius: 8px;
     }
   
-    /* Afficher la liste déroulante lorsque survolant le bouton */
+
     .dropdown:hover .dropdown-content {
         display: block;
     }

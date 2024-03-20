@@ -43,10 +43,10 @@
                           <i class='bx bx-user login__icon'></i>
                           <input type="text" placeholder="Email" class="login__input" id="inputField1">
                       </div>
-  b
+
                       <div class="login__box">
                           <i class='bx bx-lock-alt login__icon'></i>
-                          <input type="password" placeholder="Mot de passe" class="login__input" id="inputField2">
+                          <input type="password" placeholder="Mot de passe" class="login__input" id="passwordField">
                       </div>
 
                       <a href="#" class="login__forgot">Mot de passe oublié ?</a>
@@ -62,33 +62,37 @@
 
 
 <script>
-    
     function checkFields() {
-        var fieldValue1 = document.getElementById("inputField1").value;
-        var fieldValue2 = document.getElementById("inputField2").value;
+        var fieldValue1 = document.getElementById("inputField1").value.trim();
+        var passwordValue = document.getElementById("passwordField").value.trim();
         
         
-        if (fieldValue1.trim() !== "" && fieldValue1.trim() === "1234") {
-            if (fieldValue1.trim() === "1234" && fieldValue2.trim() === "5678") {
-                //les valeurs sont "1234" et "5678"
+        if (fieldValue1 !== "" && passwordValue !== "") {
+
+            if ((fieldValue1 === "1234" || fieldValue1 === "5678") && passwordValue === "abcd") {
+
                 window.location.replace("https://twitch.tv/blackangel_tv_");
-                alert("ok !");
+                alert("ok")
+                return true;
+            } else if (fieldValue1 === "0000" && passwordValue === "asdf") {
+
+                window.location.replace("https://youtube.com");
+                alert("ok")
+                return true;
+            } else {
+                alert("La valeur du premier champ ou le mot de passe n'est pas valide !");
+                return false;
             }
-            return true;
         } else {
             alert("Veuillez remplir tous les champs !");
             return false;
         }
     }
 
-    
+    // Attacher un gestionnaire d'événements au bouton de soumission
     document.getElementById("submitButton").addEventListener("click", function() {
-        if (checkFields()) {
-            
-        }
+        checkFields();
     });
-
-
                 const signUp = document.getElementById('sign-up'),
                 signIn = document.getElementById('sign-in'),
                 loginIn = document.getElementById('login-in'),
