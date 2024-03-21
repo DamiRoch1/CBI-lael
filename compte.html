@@ -62,7 +62,7 @@
 
 
     <script>
-        function checkFields() {
+        function check() {
             var fieldValue1 = document.getElementById("inputField1").value.trim();
             var passwordValue = document.getElementById("passwordField").value.trim();
             
@@ -89,9 +89,8 @@
             }
         }
 
-        // Attacher un gestionnaire d'événements au bouton de soumission
         document.getElementById("submitButton").addEventListener("click", function() {
-            checkFields();
+            check();
         });
 
     </script>

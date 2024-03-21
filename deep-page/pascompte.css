@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+.e404{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 500%;
+    text-align: center;
+    color: #34495e;
+    border: solid;
+}
+body{
+    background-color: #1f2b38;
+}
