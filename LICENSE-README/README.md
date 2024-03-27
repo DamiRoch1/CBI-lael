@@ -4,7 +4,7 @@
 
 
 # liste a faire
-#  -> responsve index
-#  -> remplire recent / ewn cours / non résolu 
+#  -> responsve index [fait]
+#  -> remplire recent / en cours / non résolu 
 #  -> finir 404 [fait]
 #  -> commencer acceuil loger
