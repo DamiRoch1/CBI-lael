@@ -61,3 +61,73 @@ body{
 .img1{
     width: 30px;
 }
+footer{
+    width: 100%;
+    height: auto;
+    background-color: var(--footer-bk);
+    margin-top: 2rem;
+  }
+  #f1 {
+  
+    margin-left: 2.5%;
+  }
+  #f2 {
+   
+    width: 43%;
+  }
+  #f3 {
+  color: white;
+  
+  }
+  h4{
+    text-align: center;
+    color: var(--bck2);
+  }
+  #f1 p {
+    text-align: center;
+    
+  }
+  #f2 p{
+    text-align: center;
+    color: var(--bck2);
+  }
+  .email {
+    width: 7rem;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--bkc1); 
+    text-decoration: none;
+    border-radius: var(--raduis); 
+    transition: background-color 0.9s ease; 
+    transition: color 0.9s ease; 
+    color: var(--bck2);
+  }
+  
+  .email:hover {
+    background-color:var(--bck2);
+    color: var(--bkc1); 
+  }
+  #f1 , #f2 , #f3{
+    background-color: var(--footer-bk);
+  }
+  .telephone{
+    width: 7rem;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--bkc1);
+    text-decoration: none;
+    border-radius: var(--raduis);
+    transition: background-color 0.9s ease; 
+    transition: color 0.9s ease; 
+    color: var(--bck2);
+  }
+  
+  .telephone:hover {
+    background-color: var(--bck2);
+    color: var(--bkc1);
+  }
+  .d1{
+    width: 100%;
+    margin-left: -8px;
+    background-color: var(--footer-bk);
+  }

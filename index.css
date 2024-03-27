@@ -1,26 +1,48 @@
+
+/*    permet de visualisez les div    */
+
+/*
+div{
+  border: solid;
+}
+
+
+****/
+
+
+:root{
+  --bkc1: #1f2b38;
+  --bck2: #34495e;
+  --raduis: 8px;
+  --footer-bk: #18222c;
+}
+
+
+
 body{
-    background-color: #1f2b38;
+    background-color:var(--bkc1);
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
     color: white;
-
+    
 }
 
     .dropdown {
       position: relative;
       display: inline-block;
       height: auto;
+      width: auto;
       
   }
 
   .dropdown-button {
-      background-color: #1f2b38;
+      background-color:var(--bkc1);
       color: 34495e;
       padding: 12px;
       font-size: 16px;
       border: none;
       cursor: pointer;
-      border-radius: 8px;
+      border-radius:var(--raduis);
       
       
   }
@@ -28,16 +50,17 @@ body{
   .dropdown-content {
       display: none;
       position: absolute;
-      background-color: #34495e;
+      background-color:var(--bck2);
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
-      border-radius: 8px;
+      border-radius:var(--raduis);
+      color: black;
       height: auto;
   }
 
   .dropdown-content a {
-      color: black;
+      color: var(--bkc1);
       padding: 12px 16px;
       text-decoration: none;
       display: block;
@@ -45,7 +68,7 @@ body{
 
   .dropdown-content a:hover {
       background-color: #42505f;
-      border-radius: 8px;
+      border-radius: var(--raduis);
   }
 
   .dropdown:hover .dropdown-content {
@@ -72,24 +95,23 @@ div {
   float: left;
   height: auto;
   width: 23%;
-  padding: 0 10px 1rem ;
-  border-radius: 8px;
-
+  padding: 0 0 1rem ;
+  border-radius: var(--raduis);
   margin-left: 1%;
 }
 #art1 {
-  background-color:#34495e;
+  background-color:var(--bck2);
   margin-left: 2.5%;
 }
 #art2 {
-  background-color:#34495e;
+  background-color:var(--bck2);
   width: 43%;
 }
 #art3 {
-  background-color: #34495e;
+  background-color:var(--bck2);
 }
 h2 {
-  color: #1f2b38;
+  color: var(--bkc1);
   text-align: center;
   font-size: 1.4rem;
 }
@@ -97,11 +119,81 @@ h2 {
   display: block;
   width: 80%;
   margin: auto;
-  border-radius: 8px;
+  border-radius: var(--raduis);
 }
 #boxes2 {
   content: "";
   display: table;
   clear: both;
   margin-top: 5rem;
+}
+footer{
+  width: 100%;
+  height: auto;
+  background-color: var(--footer-bk);
+  margin-top: 2rem;
+}
+#f1 {
+
+  margin-left: 2.5%;
+}
+#f2 {
+ 
+  width: 43%;
+}
+#f3 {
+color: white;
+
+}
+h4{
+  text-align: center;
+  color: var(--bck2);
+}
+#f1 p {
+  text-align: center;
+  
+}
+#f2 p{
+  text-align: center;
+  color: var(--bck2);
+}
+.email {
+  width: 7rem;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--bkc1); 
+  text-decoration: none;
+  border-radius: var(--raduis); 
+  transition: background-color 0.9s ease; 
+  transition: color 0.9s ease; 
+  color: var(--bck2);
+}
+
+.email:hover {
+  background-color:var(--bck2);
+  color: var(--bkc1); 
+}
+#f1 , #f2 , #f3{
+  background-color: var(--footer-bk);
+}
+.telephone{
+  width: 7rem;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--bkc1);
+  text-decoration: none;
+  border-radius: var(--raduis);
+  transition: background-color 0.9s ease; 
+  transition: color 0.9s ease; 
+  color: var(--bck2);
+}
+
+.telephone:hover {
+  background-color: var(--bck2);
+  color: var(--bkc1);
+}
+.d1{
+  width: 100%;
+  margin-left: -8px;
+  background-color: var(--footer-bk);
 }
