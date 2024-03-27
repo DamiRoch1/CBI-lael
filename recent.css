@@ -1,3 +1,16 @@
+
+:root{
+  --bkc1: #1f2b38;
+  --bck2: #34495e;
+  --raduis: 8px;
+  --footer-bk: #18222c;
+}
+
+div{
+  border: solid;
+}
+
+
 body{
     background-color: #1f2b38;
     font-size: 12px;
@@ -66,6 +79,9 @@ footer{
     height: auto;
     background-color: var(--footer-bk);
     margin-top: 2rem;
+    content: "";
+    display: table;
+    clear: both;
   }
   #f1 {
   
