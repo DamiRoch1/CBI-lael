@@ -1,13 +1,8 @@
 
 /*    permet de visualisez les div    */
 
-/*
-div{
-  border: solid;
-}
 
 
-****/
 
 
 :root{
@@ -91,7 +86,7 @@ body{
   display: table;
   clear: both;
 }
-div {
+#f1 , #f2 ,#f3 ,#art1,#art2,#art3,.d1{
   float: left;
   height: auto;
   width: 23%;

@@ -8,4 +8,5 @@
 #  -> remplire recent / en cours / non résolu 
 #  -> finir 404 [fait]
 #  -> commencer acceuil logerv [en-cour]
-#  -> ajout de footer sur tt les page [en-cour]
+#  -> ajout de footer sur tt les page [fait]
+#  -> fair la carte[en-cour]
