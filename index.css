@@ -90,7 +90,7 @@ body{
   float: left;
   height: auto;
   width: 23%;
-  padding: 0 0 1rem ;
+  padding-left: 1rem;
   border-radius: var(--raduis);
   margin-left: 1%;
 }
