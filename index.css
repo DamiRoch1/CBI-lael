@@ -73,7 +73,8 @@ body{
   width: 100px;
 }
 .img1{
-  width: 30px
+  width: 30px;
+  padding: 5px;
 }
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 .page{
