@@ -7,7 +7,7 @@
 #  -> responsve index [fait]
 #  -> remplire recent / en cours / non résolu 
 #  -> finir 404 [fait]
-#  -> commencer acceuil logerv [en-cour]
+#  -> commencer acceuil logerv [fait]
 #  -> ajout de footer sur tt les page [fait]
-#  -> fair la carte[en-cour]
-#  -> décal du nav sous sécu [en-cours]
+#  -> fair la carte[Laël-fait]
+#  -> décal du nav sous sécu [fait]
