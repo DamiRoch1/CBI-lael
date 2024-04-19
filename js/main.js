@@ -29,7 +29,7 @@ function check() {
 
         // regarde si les champs coresponde au differant argumants
 
-        if ((fieldValue1 === "lael.emery@gmail.com" || fieldValue1 === "colin.chatelain@gmail.com" || fieldValue1 === "blackgugus3@gmail.com") && passwordValue === "FQErVWV6" || passwordValue === "Tw4t2LuRq!") {
+        if ((fieldValue1 === "lael.emery@gmail.com" || fieldValue1 === "colin.chatelain@gmail.com" || fieldValue1 === "adminlog") && passwordValue === "FQErVWV6" || passwordValue === "admindamien") {
             
             // si les arguments rentré sont dans la liste une nouvelle page sera ouverte (page de acceuil sacuriisé)
 
@@ -45,8 +45,18 @@ function check() {
 
             window.location.replace("https://damiroch1.github.io/CBI-lael/deep-page/pascompte.html");
             alert("")
-            return true;    
-        } else {
+            return true;  
+
+        } else if ((fieldValue1 === "admin") && passwordValue === "admindamien1" ) {
+
+                // si les valeurs sont verifié une page avec la page de test
+    
+                window.open("https://damiroch1.github.io/CBI-lael/test/test.html");
+
+            
+                return true;    
+            } else {  
+       
 
             // indique que le email ou le mot de passe est incorecte 
 
