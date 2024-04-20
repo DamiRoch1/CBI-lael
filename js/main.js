@@ -71,7 +71,3 @@ function check() {
         return false;
     }
 }
-
-
-
-
