@@ -5,7 +5,7 @@
 
 # liste a faire
 #  -> responsve index [fait]
-#  -> remplire recent / en cours / non résolu [pas-fait]
+#  -> remplire recent / en cours / non résolu [maquette]
 #  -> finir 404 [fait]
 #  -> commencer acceuil logerv [fait]
 #  -> ajout de footer sur tt les page [fait]

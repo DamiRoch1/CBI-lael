@@ -86,7 +86,7 @@ body{
   display: table;
   clear: both;
 }
-#f1 , #f2 ,#f3 ,#art1,#art2,#art3,.d1{
+#f1 , #f2 ,#f3 ,.d1{
   float: left;
   height: auto;
   width: 23%;
@@ -194,4 +194,27 @@ h4{
 }
 main div{
   padding: 0 10px 1rem;
+}
+.art1{
+  border-radius: var(--raduis);
+  background-color: var(--bck2);
+  padding:0.1rem 0.1rem 0,1rem 0,1rem;
+  width: 12rem;
+}
+.art2{
+  border-radius: var(--raduis);
+  background-color: var(--bck2);
+  padding:0.1rem 0.1rem 0,1rem 0,1rem;
+  width: 12rem;
+  float: left;
+  margin-left: 14rem;
+}
+
+#art1,#art2,#art3{
+  float: left;
+  height: auto;
+  width: 23%;
+  padding: 1 1 1rem 1;
+  border-radius: var(--raduis);
+  margin: 1%;
 }

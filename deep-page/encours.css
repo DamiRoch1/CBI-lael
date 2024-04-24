@@ -196,3 +196,15 @@ h4{
 main div{
   padding: 0 10px 1rem;
 }
+.page{
+  width: 100%;
+  height: var(--height-cart);
+}
+.carte{
+  width: 100%;
+  height: var(--height-cart);
+}
+:root{
+  --height-cart: 50rem;
+
+}
