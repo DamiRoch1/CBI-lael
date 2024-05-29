@@ -27,7 +27,7 @@ body{
       display: inline-block;
       height: auto;
       width: auto;
-      
+      position: fixed;
   }
 
   .dropdown-button {
@@ -81,11 +81,13 @@ body{
   content: "";
   display: table;
   clear: both;
+
 }
 #boxes {
   content: "";
   display: table;
   clear: both;
+
 }
 #f1 , #f2 ,#f3 ,#art1,#art2,#art3,.d1{
   float: left;
@@ -94,6 +96,7 @@ body{
   padding-left: 1rem;
   border-radius: var(--raduis);
   margin-left: 1%;
+  margin-top: 150px;
 }
 #art1 {
   background-color:var(--bck2);

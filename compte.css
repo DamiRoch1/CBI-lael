@@ -9,7 +9,7 @@ body{
      .dropdown {
       position: relative;
       display: inline-block;
-      
+      position: fixed;
   }
 
   .dropdown-button {
