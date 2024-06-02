@@ -29,7 +29,7 @@ function check() {
 
         // regarde si les champs coresponde au differant argumants
 
-        if ((fieldValue1 === "lael.emery@gmail.com" || fieldValue1 === "colin.chatelain@gmail.com" || fieldValue1 === "adminlog") && passwordValue === "FQErVWV6" || passwordValue === "admindamien") {
+        if ((fieldValue1 === "lael.emery@gmail.com" || fieldValue1 === "colin.chatelain@gmail.com" || fieldValue1 === "adminlog") && passwordValue === "FQErVWV6" || passwordValue === "Admin123") {
             
             // si les arguments rentré sont dans la liste une nouvelle page sera ouverte (page de acceuil sacuriisé)
 
