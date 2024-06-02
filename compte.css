@@ -96,7 +96,7 @@ a{
   text-decoration: none;
 }
 
-img{
+.img1 , .img2{
   max-width: 100%;
   height: auto;
   display: block;
@@ -116,12 +116,12 @@ img{
 }
 
 .login__img{
-  justify-self: center;
+ 
 }
 
+
 .login__img img{
-  width: 310px;
-  margin-top: 1.5rem;
+width: 100%;
 }
 
 .login__forms{
@@ -133,7 +133,7 @@ img{
   position: absolute;
   bottom: 1rem;
   width: 100%;
-  background-color: var(--first-color-lighten);
+  background-color: #f2f2f291;
   padding: 2rem 1rem;
   border-radius: 1rem;
   text-align: center;
@@ -164,7 +164,7 @@ img{
   grid-template-columns: max-content 1fr;
   column-gap: .5rem;
   padding: 1.125rem 1rem;
-  background-color: #FFF;
+  background-color: #ffffff27;
   margin-top: 1rem;
   border-radius: .5rem;
 }
@@ -277,10 +277,7 @@ img{
     padding-left: 1rem;
   }
 
-  .login__img img{
-    width: 390px;
-    margin-top: 0;
-  }
+
 
   .login__registre, .login__create{
     left: -11rem;
